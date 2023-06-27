@@ -10,7 +10,7 @@
     /// An appender which batches the log events and asynchronously forwards them to any configured appenders.
     /// <seealso href="www.nimaara.com/2016/01/01/high-performance-logging-log4net/"/>
     /// </summary>
-    public sealed class AsyncBufferingForwardingAppender : BufferingForwardingAppender
+    public class AsyncBufferingForwardingAppender : BufferingForwardingAppender
     {
         private const int DEFAULT_IDLE_TIME = 500;
 
